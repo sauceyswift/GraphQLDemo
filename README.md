@@ -6,3 +6,4 @@
 - do/catch
 - MVVM
 - Singleton
+- Generics
