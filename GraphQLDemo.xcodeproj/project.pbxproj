@@ -71,12 +71,12 @@
 		BA6F83272C86B2C8002E4C45 /* GraphQLDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BA6F83532C87707F002E4C45 /* Services */,
 				BA6F834E2C876C4C002E4C45 /* ViewModels */,
 				BA6F834D2C876C44002E4C45 /* Views */,
 				BA6F83282C86B2C8002E4C45 /* GraphQLDemoApp.swift */,
 				BA6F832C2C86B2C9002E4C45 /* Assets.xcassets */,
 				BA6F832E2C86B2C9002E4C45 /* Preview Content */,
-				BA6F833F2C86B66B002E4C45 /* Network.swift */,
 			);
 			path = GraphQLDemo;
 			sourceTree = "<group>";
@@ -123,6 +123,14 @@
 				BA6F83512C876C86002E4C45 /* ProductsViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BA6F83532C87707F002E4C45 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BA6F833F2C86B66B002E4C45 /* Network.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
