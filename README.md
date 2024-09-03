@@ -5,3 +5,4 @@
 - async/await
 - do/catch
 - MVVM
+- Singleton
