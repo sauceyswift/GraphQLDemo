@@ -1,0 +1,12 @@
+query CategoryProducts($categoryId: Float!) {
+  products(categoryId: $categoryId) {
+    id
+    title
+    price
+    description
+    category {
+      id
+      name
+    }
+  }
+}
